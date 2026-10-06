@@ -41,8 +41,6 @@ It appeared that viewing the tags provided evidence about the culprit and their 
 
 
 ## What broke / what surprised me
-The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
-The largest time consumers so far have been...
 - Losing my breadcrumb navigation:
 	Utilizing this helps me maintain navigation, but the page will reload seemingly randomly based on an object property or blade menu. This created an unintended effect that caused me to lose the convenience of retracing or maintaining my steps.
 - Ensuring that I am reviewing the correct resource(s) or scope(s) after a page reload. I find myself reviewing an entire page of information all over again after taking it all in, then realizing the page reload could have navigated me away from the targeted resource. It's nice to know that I am aware and this training helps me stay acute to this behavior, but those page reloads currently cause me to re-assess often.
