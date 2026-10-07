@@ -2,7 +2,7 @@
 
 ## Scenario
 A junior intern was granted temporary contributor access to deploy a "test environment" within an Azure subscription, but the resulting resources were deployed outside the organization’s governance standards.
-I investigated the environment with Reader access to determine what was deployed and how it was provisioned, with a focus on identifying why Azure Policy did not prevent the non-compliant deployment
+I investigated the environment with Reader access to determine what was deployed and how it was provisioned, with a focus on identifying why Azure Policy did not prevent the non-compliant deployment.
 
 ## Environment
 
@@ -52,11 +52,11 @@ I needed to observe and locate who, what, when, where, and how this governance v
 ## Findings and recommendations
 The investigation determined that the intern deployed a resource outside of this organization's naming standards based on a non-compliant policy effect.
 -	Change the policy from "Audit" to "Deny" after validating resources against this policy. This will prevent future resources from violating the policy.
--	Review Governance requirements to ensure contributor access and deployment procedures are clearly defined.
--	Enforce detail-appropriate tags within Subscriptions, Resource Groups, and Resources (e.g. Purpose, Owners, Environments, Roles, Groups, Projects). This will help with future investigations and audits.
+-	Review Governance requirements to ensure contributor access and deployment procedures are granularly defined.
+-	Require appropriate tags at deployment for Subscriptions, Resource Groups, and Resources to help define their purposes (e.g. Purpose, Owners, Environments, Roles, Groups, Projects). This will help with future investigations and audits.
 
 ## What I learned
 -	How to navigate Azure Portal with more familiarity and intent.
 -	Sometimes the JSON preview can reveal more information than the details and property panes of resources.
--	Policies are how these circumstances arise often. Perhaps I will check those first, depending on the circumstances.
+-	Policies are often how these circumstances arise. Perhaps I will check those first, depending on the circumstances.
 -	Tags are very useful with providing information at-a-glance, especially when other fields do not provide necessary information.
