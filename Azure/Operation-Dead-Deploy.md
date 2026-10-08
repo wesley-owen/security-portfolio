@@ -24,13 +24,13 @@ I needed to observe and locate who, what, when, where, and how this governance v
 	<img width="1394" height="831" alt="1 - Navigation" src="https://github.com/user-attachments/assets/76f2e006-8acf-4385-9405-f8383145822b" />
 
 2)	To confirm my suspicion, I visited the resource group to identify and review all resource(s) and accompanying tag(s).
--	Luckily, there was only one resource and viewing the tags provided evidence about the culprit and their name. Now that I know "who".
+-	Luckily, there was only one resource and viewing the tags provided evidence about the culprit and their name. Now I know the "who".
 	<img width="1394" height="550" alt="2-1 - Resource Group - Resource" src="https://github.com/user-attachments/assets/de3668c7-bcf1-47f9-b2b0-6fbf303745d3" />
 	<img width="1394" height="645" alt="2-2 - Resource Group - Resource - Tags" src="https://github.com/user-attachments/assets/0a4dc111-499d-41ed-809b-1f80dd195c8b" />
 
 3)	Navigating backward through Azure Resource Manager, I can compare records against resource deployments.
 -	I hopped to the resource group's deployment blade and it provided me details about this resource's conception: The timeline, parameters from the inputs, name of deployment, and successions. This told me the "what" that was provisioned and "when" this deployment occurred.
--	The fact that this deployment succeeded at all is the biggest clue to help me understand "how".
+-	The fact that this deployment succeeded at all is the biggest clue to help lead me into investigating "how".
 	<img width="1637" height="698" alt="3 - Resource Group - Resource - Deployment Blade" src="https://github.com/user-attachments/assets/cf40bd31-a4ef-4bf2-b21e-1b8c46dccd65" />
 
 4)	Governance policies are supposed to enforce and prevent results like this. My only remaining answer could be within Azure tenant policies and confirm how these are configured and/or inherited.
