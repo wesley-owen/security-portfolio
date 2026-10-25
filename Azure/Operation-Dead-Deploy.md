@@ -7,15 +7,10 @@ I investigated the environment with Reader access to determine what was deployed
 ## Environment
 
 - **Platform**: Microsoft Azure
-
 - **Environment**: Live multi-user Azure Training Tenant
-
 - **Access Level**: Reader
-
 - **Services Investigated**: Azure Subscriptions, Resource Manager, Resource Groups, Tags, Resources, Initiatives/Policies, Policy Compliance, Policy Assignments
-
 - **Governance Controls**: Azure Policy, Azure Resource Manager, Tags, Naming Standards
-
 - **Tools Used**: Azure Resource Manager, ARM Deployments, Azure Policy, Azure Portal
 
 ## Investigation
