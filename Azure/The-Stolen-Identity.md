@@ -6,27 +6,33 @@ An unauthorized user accessed a live Azure tenant within the previous 24 hours w
 ## Environment
 
 - **Platform**: Microsoft Azure
-
 - **Environment**: Live multi-user Azure Training Tenant
-
 - **Access Level**: Reader
-
-- **Services Investigated**: Azure Subscriptions, Resource Manager, Resource Groups, Tags, Resources, Initiatives/Policies, Policy Compliance, Policy Assignments
-
-- **Governance Controls**: Azure Policy, Azure Resource Manager, Tags, Naming Standards
-
-- **Tools Used**: Azure Resource Manager, ARM Deployments, Azure Policy, Azure Portal
+- **Services Investigated**: Azure App Registrations, Tags, Policy Compliance, Policy Assignments
+- **Governance Controls**: Azure Policy, Azure Resource Manager, Tags
+- **Tools Used**: Azure Portal
 
 ## Investigation
+The incident team reported that a user account was compromised through phishing, and shortly thereafter an MFA token access, logged as metadata (webhook, api, json, etc...), was observed from an enterprise app.
+Additional operational procedures noted that the organization admins performed auditing of app registrations to keep notes within "Branding & properties"; this is to help track business justifications, ownership, and investigation contexts.
 
-1)  
+1)  Identify Privilege Access Entrance
+- My first lead was to find an indicator within app registration notes to help identify potential association with the compromised user account. 
+- I navigated to App Registrations within the tenant and reviewed each application's "Branding & properties" blade.
+- A note matching the compromised user account was found within a legacy application.
+  
+  <img width="1954" height="1263" alt="1-1 Navigation" src="https://github.com/user-attachments/assets/8794256e-aef8-4645-b33e-daa4e03ca45b" />
+
+
+2)	ESCALATE
 - 
-2)	
+3)	PIVOT
 - 
-3)	
+4)  PERSIST
 - 
-4)  
+5)  LOOT
 - 
+
 
 ## What broke / what surprised me
 - 
