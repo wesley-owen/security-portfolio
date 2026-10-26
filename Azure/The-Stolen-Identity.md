@@ -22,7 +22,7 @@ Additional operational procedures noted that the organization admins performed a
 - I navigated to App Registrations within the tenant and reviewed each application's "Branding & properties" blade.
 - A note matching the compromised user account was found within a legacy application.
   
-  <img width="1954" height="1263" alt="1-1 Navigation" src="https://github.com/user-attachments/assets/8794256e-aef8-4645-b33e-daa4e03ca45b" />
+  <img width="1954" height="1263" alt="1-1 Navigation" src="https://github.com/user-attachments/assets/6fe5e9c0-4db3-4ea4-8e34-db7b099af1ee" />
 
 
 2)	Anticipate Privileged Escalation
